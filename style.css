@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #007bff;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.home-section {
+    background-color: #007bff;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.home-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #0056b3;
+    transition: 0.3s ease;
+}
+
+.about-section, .certifications-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about-section h2, .certifications-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p, .certifications-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.certifications-section {
+    background-color: #f9f9f9;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cert-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.cert-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cert-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.view-button {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.view-button:hover {
+    background-color: #0056b3;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
