@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header Section -->
     <header class="header">
         <div class="container">
             <h1 class="logo">Certification Portal</h1>
@@ -16,10 +17,12 @@
                 <a href="#about">About</a>
                 <a href="#certifications">Certifications</a>
                 <a href="#contact">Contact</a>
+                <a href="#" class="login-btn" id="loginButton">Login</a> <!-- Login button -->
             </nav>
         </div>
     </header>
 
+    <!-- Home Section -->
     <section id="home" class="home-section">
         <div class="container">
             <h2>Welcome to the Certification Portal</h2>
@@ -28,6 +31,7 @@
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="about-section">
         <div class="container">
             <h2>About Us</h2>
@@ -35,6 +39,7 @@
         </div>
     </section>
 
+    <!-- Certifications Section -->
     <section id="certifications" class="certifications-section">
         <div class="container">
             <h2>Certifications</h2>
@@ -58,10 +63,32 @@
         </div>
     </section>
 
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 Certification Portal. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
